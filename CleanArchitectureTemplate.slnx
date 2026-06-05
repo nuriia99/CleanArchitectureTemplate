@@ -1,3 +1,15 @@
 <Solution>
-  <Project Path="CleanArchitectureTemplate/CleanArchitectureTemplate.csproj" />
+  <Folder Name="/0. Elementos de la solución/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/1. CleanArchitecture.WebApi/">
+    <Project Path="CleanArchitectureTemplate/CleanArchitectureTemplate.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/2. CleanArchitecure.Application/" />
+  <Folder Name="/3. CleanArchitecure.Domain/" />
+  <Folder Name="/4. CleanArchitecure.Infraestructure/" />
+  <Folder Name="/5. CleanArchitecure..XCutting/" />
+  <Folder Name="/6. CleanArchitecure.UnitTests/">
+    <Project Path="CleanArchitecture.UnitTests/CleanArchitecture.UnitTests.csproj" />
+  </Folder>
 </Solution>
