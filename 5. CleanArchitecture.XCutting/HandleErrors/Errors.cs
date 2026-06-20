@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace CleanArchitecure.XCutting.HandleErrors
+namespace CleanArchitecture.XCutting.HandleErrors
 {
     public static class Errors
     {

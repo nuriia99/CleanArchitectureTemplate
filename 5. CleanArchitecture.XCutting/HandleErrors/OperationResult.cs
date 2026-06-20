@@ -1,10 +1,10 @@
-﻿namespace CleanArchitecure.XCutting.HandleErrors
+﻿namespace CleanArchitecture.XCutting.HandleErrors
 {
     public class OperationResult<T>
     {
-        public OperationResult() 
+        public OperationResult()
         {
-            Errors = [];    
+            Errors = [];
         }
 
         public OperationResult(T value)

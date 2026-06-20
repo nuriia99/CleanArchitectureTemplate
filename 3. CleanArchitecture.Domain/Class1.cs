@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecure.Domain
+﻿namespace CleanArchitecture.Domain
 {
     public class Class1
     {

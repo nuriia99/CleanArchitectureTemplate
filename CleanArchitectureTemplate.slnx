@@ -3,21 +3,21 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/1. CleanArchitecture.WebApi/">
-    <Project Path="CleanArchitectureTemplate/CleanArchitectureTemplate.WebApi.csproj" />
+    <Project Path="1. CleanArchitecture.WebApi/CleanArchitectureTemplate.WebApi.csproj" />
   </Folder>
-  <Folder Name="/2. CleanArchitecure.Application/">
-    <Project Path="CleanArchitecure.Application/CleanArchitecure.Application.csproj" Id="014fb7ce-2226-468c-a2b7-b73fddc841ea" />
+  <Folder Name="/2. CleanArchitecture.Application/">
+    <Project Path="2. CleanArchitecture.Application/CleanArchitecture.Application.csproj" Id="014fb7ce-2226-468c-a2b7-b73fddc841ea" />
   </Folder>
-  <Folder Name="/3. CleanArchitecure.Domain/">
-    <Project Path="CleanArchitecure.Domain/CleanArchitecure.Domain.csproj" Id="c79b774f-9764-4cae-b563-fbcfe8805cb8" />
+  <Folder Name="/3. CleanArchitecture.Domain/">
+    <Project Path="3. CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="c79b774f-9764-4cae-b563-fbcfe8805cb8" />
   </Folder>
-  <Folder Name="/4. CleanArchitecure.Infraestructure/">
-    <Project Path="CleanArchitecure.Infraestructure/CleanArchitecure.Infraestructure.csproj" Id="f247fe1d-bea2-4f07-8e5c-ae08c67e17b0" />
+  <Folder Name="/4. CleanArchitecture.Infraestructure/">
+    <Project Path="4. CleanArchitecture.Infraestructure/CleanArchitecture.Infraestructure.csproj" Id="f247fe1d-bea2-4f07-8e5c-ae08c67e17b0" />
   </Folder>
-  <Folder Name="/5. CleanArchitecure.XCutting/">
-    <Project Path="CleanArchitecure.XCutting/CleanArchitecure.XCutting.csproj" Id="c10b4c55-5090-4966-8668-a24a2eebabd5" />
+  <Folder Name="/5. CleanArchitecture.XCutting/">
+    <Project Path="5. CleanArchitecture.XCutting/CleanArchitecture.XCutting.csproj" Id="c10b4c55-5090-4966-8668-a24a2eebabd5" />
   </Folder>
-  <Folder Name="/6. CleanArchitecure.UnitTests/">
-    <Project Path="CleanArchitecture.UnitTests/CleanArchitecture.UnitTests.csproj" />
+  <Folder Name="/6. CleanArchitecture.UnitTests/">
+    <Project Path="6. CleanArchitecture.UnitTests/CleanArchitecture.UnitTests.csproj" />
   </Folder>
 </Solution>

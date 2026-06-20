@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CleanArchitecture.UnitTests.Application\**" />
+    <Compile Remove="CleanArchitecture.UnitTests.Domain\**" />
+    <Compile Remove="CleanArchitecture.UnitTests.Infraestructure\**" />
+    <EmbeddedResource Remove="CleanArchitecture.UnitTests.Application\**" />
+    <EmbeddedResource Remove="CleanArchitecture.UnitTests.Domain\**" />
+    <EmbeddedResource Remove="CleanArchitecture.UnitTests.Infraestructure\**" />
+    <None Remove="CleanArchitecture.UnitTests.Application\**" />
+    <None Remove="CleanArchitecture.UnitTests.Domain\**" />
+    <None Remove="CleanArchitecture.UnitTests.Infraestructure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
